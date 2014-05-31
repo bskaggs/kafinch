@@ -8,17 +8,17 @@ Kafinch sits in one or more chatrooms on a server and sends messages to Apache K
 
 ## Usage
 
-Usage:
-  kafinch exec -c, --channels=CHANNELS -n, --nick=NICK -s, --server=SERVER
-
-Options:
-  -z, [--zookeepers=ZOOKEEPERS]  # Zookeepers
-                                 # Default: localhost:9092
-  -t, [--topic=TOPIC]            # Kafka Topic
-                                 # Default: irc
-  -c, --channels=CHANNELS        # channels
-  -s, --server=SERVER            
-  -n, --nick=NICK  
+    Usage:
+      kafinch exec -c, --channels=CHANNELS -n, --nick=NICK -s, --server=SERVER
+    
+    Options:
+      -z, [--zookeepers=ZOOKEEPERS]  # Zookeepers
+                                     # Default: localhost:9092
+      -t, [--topic=TOPIC]            # Kafka Topic
+                                     # Default: irc
+      -c, --channels=CHANNELS        # channels
+      -s, --server=SERVER            
+      -n, --nick=NICK  
 
 ## Contributing
 
