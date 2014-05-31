@@ -1,6 +1,6 @@
 # Kafinch
 
-Kafinch sits in one or more chatrooms on a server and sends messages to Apache Kafka.
+Kafinch sits in one or more chatrooms on an IRC server and relays messages to Apache Kafka.
 
 ## Installation
 
